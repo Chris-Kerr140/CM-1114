@@ -26,16 +26,20 @@ header {
 }
 
 
+/* Footer styles */
 footer {
     position: fixed; /* Keep the footer fixed */
     bottom: 0; /* Ensure the footer is at the bottom */
     width: 100%; /* Make it span the entire page width */
     padding: 10px 20px; /* Adjust padding as needed */
     box-sizing: border-box; /* Ensure padding does not affect width */
-    background-color: #007bff; /* Background color */
+    background-color: #007bff; /* Add background color */
     color: #fff; /* Text color */
     display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Vertically center the content */
 }
+
 
 footer p {
     margin: 0;

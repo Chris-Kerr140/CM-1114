@@ -17,14 +17,17 @@ header, footer {
     color: #fff;
     padding: 10px 20px;
     text-align: center;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the content horizontally */
 }
 
 header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Horizontally center the items */
+    flex-direction: row; /* Ensure the items are laid out horizontally */
 }
 
 header nav ul li {

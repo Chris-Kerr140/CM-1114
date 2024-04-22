@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #333;
     display: flex;
     flex-direction: column;
     height: 100vh; /* Full height of the viewport */
@@ -60,7 +60,6 @@ header nav ul li a {
 main {
     padding: 20px;
     flex-grow: 1; /* Allow main content area to take up the remaining vertical space */
-     color: #fff;
 }
 
 /* Background images for each page */
@@ -69,6 +68,7 @@ body.home {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+     color: #fff;
 }
 
 body.contact {
@@ -104,6 +104,7 @@ body.where {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+     color: #fff;
 }
 
 body.fave {
@@ -111,6 +112,7 @@ body.fave {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+     color: #fff;
 }
 
 /* Form styling */

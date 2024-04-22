@@ -117,9 +117,7 @@ form label {
     font-weight: bold;
 }
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
+form input[type="text"], form input[type="email"], form textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;

@@ -23,6 +23,21 @@ header, footer {
     width: 100%; /* Ensure the header spans the entire page width */
     box-sizing: border-box; /* Ensures padding does not affect width */
 }
+/* Header styles */
+header {
+    position: fixed; /* Keep the header fixed at the top of the webpage */
+    top: 0; /* Position the header at the top */
+    width: 100%; /* Ensure the header spans the entire page width */
+    padding: 10px 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Vertically center the content */
+    z-index: 1000; /* Set a higher z-index to keep the header on top of other content */
+}
+
 
 footer {
     position: fixed; /* Keep the footer fixed */

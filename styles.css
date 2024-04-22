@@ -154,6 +154,7 @@ form button:hover {
 .gallery img {
     width: 100%; /* Fill the entire width of the grid cell */
     height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Ensure images do not overflow their containers */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

@@ -141,8 +141,10 @@ form button:hover {
 /* Styling for image gallery */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Increase the width of columns to make images larger */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 10px;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
 }
 
 .gallery figure {

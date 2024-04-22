@@ -24,6 +24,7 @@ header, footer {
 
 header {
     width: 100%; /* Ensure the header spans the entire page width */
+    box-sizing: border-box;
 }
 
 footer {

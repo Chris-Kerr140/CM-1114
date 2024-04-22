@@ -98,6 +98,20 @@ body.members {
     background-position: center;
 }
 
+body.where {
+    background-image: url('back_images/members.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body.fave {
+    background-image: url('back_images/members.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* Form styling */
 form {
     max-width: 400px;

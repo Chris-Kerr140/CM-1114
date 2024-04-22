@@ -99,14 +99,14 @@ body.members {
 }
 
 body.where {
-    background-image: url('back_images/members.jpg');
+    background-image: url('back_images/matrix.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 body.fave {
-    background-image: url('back_images/members.jpg');
+    background-image: url('back_images/game.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

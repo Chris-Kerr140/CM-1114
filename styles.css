@@ -22,22 +22,8 @@ header, footer {
     align-items: center; /* Vertically center the content */
 }
 
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Use flexbox layout */
-    justify-content: center; /* Horizontally center the items */
-    flex-direction: row; /* Ensure the items are laid out horizontally */
-}
-
-header nav ul li {
-    margin: 0 10px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header {
+    width: 100%; /* Ensure the header spans the entire page width */
 }
 
 footer {
@@ -48,6 +34,25 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Navigation styles */
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Horizontally center the items */
+    flex-direction: row; /* Ensure the items are laid out horizontally */
+}
+
+header nav ul li {
+    margin: 0 10px; /* Space between navigation items */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Main content area */

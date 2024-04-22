@@ -11,8 +11,8 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact_us.html">Contact Us</a></li>
-                <li><a href="image_gallery.html">Image Gallery</li>
-                <li><a href="events.html">Events Calendar</li>
+                <li><a href="image_gallery.html">Image Gallery</a></li>
+                <li><a href="events.html">Events Calendar</a></li>
                 <li><a href="current_members.html">Current Members</a></li>
                 <li><a href="where_to_find_us.html">Where to Find Us</a></li>
                 <li><a href="favourite_shops.html">Game Supplies</a></li>
@@ -38,36 +38,6 @@
         </form>
     </main>
     <footer>
-        <p>&copy; 2024 Your Gaming Society</p>
     </footer>
-    <script>
-        // Add an event listener to handle form submission
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent the default form submission
-
-            // Capture the form data
-            const formData = new FormData(event.target); // Using event.target to reference the form
-
-            // Perform the desired actions with the form data
-            // Example: Send the form data to a server using an AJAX request
-            fetch('c.kerr7@rgu.ac.uk', { // Replace '/submit_form_endpoint' with your server endpoint
-                method: 'POST',
-                body: formData,
-            })
-            .then(response => {
-                if (response.ok) {
-                    // Handle success
-                    alert('Form submitted successfully!');
-                } else {
-                    // Handle error
-                    alert('Form submission failed. Please try again.');
-                }
-            })
-            .catch(error => {
-                // Handle network error
-                alert('There was an error. Please try again.');
-            });
-        });
-    </script>
 </body>
 </html>

@@ -19,6 +19,7 @@ header, footer {
     text-align: center;
     display: flex; /* Use flexbox layout */
     justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Vertically center the content */
 }
 
 header nav ul {
@@ -40,8 +41,9 @@ header nav ul li a {
 }
 
 footer {
-    position: relative; /* Ensure the footer is positioned properly */
+    position: fixed; /* Keep the footer fixed */
     bottom: 0; /* Ensure the footer is at the bottom */
+    width: 100%; /* Make it span the entire page width */
 }
 
 footer p {
@@ -136,7 +138,7 @@ form button:hover {
 /* Styling for image gallery */
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Increase the width of columns to make images larger */
     gap: 10px;
 }
 
@@ -147,8 +149,8 @@ form button:hover {
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Fill the entire width of the grid cell */
+    height: auto; /* Maintain the aspect ratio */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

@@ -38,13 +38,13 @@ footer p {
 
 /* Navigation styles */
 header nav ul {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Vertically center the items */
+    width: 100%; /* Span the full width of the header */
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox layout */
-    justify-content: center; /* Horizontally center the items */
-    flex-direction: row; /* Ensure the items are laid out horizontally */
-    width: 100%; /* Ensure the navigation spans the entire header */
 }
 
 header nav ul li {

@@ -60,6 +60,7 @@ header nav ul li a {
 main {
     padding: 20px;
     flex-grow: 1; /* Allow main content area to take up the remaining vertical space */
+     color: #fff;
 }
 
 /* Background images for each page */

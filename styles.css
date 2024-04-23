@@ -8,28 +8,28 @@ body {
     color: #000;
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh;
 }
 /* Header styles */
 header {
     position: fixed; /* Keep the header fixed at the top of the webpage */
     top: 0; /* Position the header at the top */
     width: 100%; /* Ensure the header spans the entire page width */
-    padding: 10px 20px; /* Adjust padding as needed */
-    box-sizing: border-box; /* Ensure padding does not affect width */
+    padding: 10px 20px;
+    box-sizing: border-box;
     background-color: #007bff; /* Background color */
     color: #fff; /* Text color */
     display: flex; /* Use flexbox layout */
     justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Vertically center the content */
-    z-index: 1000; /* Set a higher z-index to keep the header on top of other content */
+    align-items: center; 
+    z-index: 1000;
 }
 
 
 footer {
     position: fixed; /* Keep the footer fixed */
     bottom: 0; /* Ensure the footer is at the bottom */
-    width: 100%; /* Make it span the entire page width */
+    width: 100%;
 }
 
 footer p {
@@ -40,8 +40,8 @@ footer p {
 header nav ul {
     display: flex; /* Use flexbox layout */
     justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Vertically center the items */
-    width: 100%; /* Span the full width of the header */
+    align-items: center;
+    width: 100%; 
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@ header nav ul li a {
 /* Main content area */
 main {
     padding: 20px;
-    flex-grow: 1; /* Allow main content area to take up the remaining vertical space */
+    flex-grow: 1; 
 }
 
 /* Background images for each page */
@@ -172,9 +172,9 @@ form button:hover {
 }
 
 .gallery img {
-    width: 100%; /* Fill the entire width of the grid cell */
-    height: auto; /* Maintain the aspect ratio */
-    max-width: 100%; /* Ensure images do not overflow their containers */
+    width: 100%; 
+    height: auto;
+    max-width: 100%;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
